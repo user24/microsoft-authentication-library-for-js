@@ -1,8 +1,67 @@
 # Change Log - @azure/msal-common
 
-This log was last generated on Tue, 07 Mar 2023 16:48:51 GMT and should not be manually modified.
+This log was last generated on Tue, 16 May 2023 22:51:19 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 14.0.0-alpha.2
+
+Tue, 16 May 2023 22:51:19 GMT
+
+### Changes
+
+- Support tenant switching for tenant domain names #6022 (kshabelko@microsoft.com)
+
+## 14.0.0-alpha.1
+
+Mon, 08 May 2023 20:12:00 GMT
+
+### Changes
+
+- Add logging to Authority.getEndpointMetadataFromNetwork() #5973 (kshabelko@microsoft.com)
+
+## 14.0.0-alpha.0
+
+Tue, 02 May 2023 23:14:26 GMT
+
+### Major changes
+
+- Add CIAM Authority Support(#5865) (sameera.gajjarapu@microsoft.com)
+
+### Patches
+
+- Fix bugs in CIAM Authority Support (#5917) (sameera.gajjarapu@microsoft.com)
+- Update polycheck version (#5901) (sameera.gajjarapu@microsoft.com)
+- Fix: dSTS Token dummy aud claim value for requests with scope input by using v2.0 endpoint (kapjain@microsoft.com)
+- Exception is thrown in acquireTokenByClientCredential if tenantId is missing #5805 (rginsburg@microsoft.com)
+- `removeAccount` does not throw if account does not exist in cache #5911 (thomas.norling@microsoft.com)
+- Remove unused enum (thomas.norling@microsoft.com)
+
+## 13.0.0
+
+Mon, 01 May 2023 20:47:41 GMT
+
+### Major changes
+
+- Add CIAM Authority Support(#5865) (sameera.gajjarapu@microsoft.com)
+
+### Patches
+
+- Fix bugs in CIAM Authority Support (#5917) (sameera.gajjarapu@microsoft.com)
+- Update polycheck version (#5901) (sameera.gajjarapu@microsoft.com)
+
+## 12.0.0
+
+Mon, 03 Apr 2023 21:29:31 GMT
+
+### Major changes
+
+- Optimize token lookups in cache #5806 (thomas.norling@microsoft.com)
+- Optimize account lookups in cache #5792 (thomas.norling@microsoft.com)
+
+### Patches
+
+- Added tenant_region_scope and tenant_region_sub_scope to TokenClaims #5789 (lalimasharda@microsoft.com)
 
 ## 11.0.0
 

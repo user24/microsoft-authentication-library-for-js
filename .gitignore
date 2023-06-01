@@ -263,8 +263,6 @@ coverage/
 typings/
 lib-commonjs/
 lib-es6/
-lib/msal-core/lib-commonjs
-lib/msal-core/lib-es6
 *.tgz
 *.zip
 samples/**/screenshots
@@ -277,3 +275,9 @@ lib/msal-node/temp
 ref/
 .server.pid
 *.pem
+
+# Typescript & Rollup
+tsconfig.build.tsbuildinfo
+
+# MSAL Node Cache Files
+temp-cache.json
