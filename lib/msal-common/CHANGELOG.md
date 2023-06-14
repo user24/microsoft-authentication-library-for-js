@@ -1,8 +1,21 @@
 # Change Log - @azure/msal-common
 
-This log was last generated on Tue, 16 May 2023 22:51:19 GMT and should not be manually modified.
+This log was last generated on Wed, 14 Jun 2023 23:59:22 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 14.0.0
+
+Wed, 14 Jun 2023 23:59:22 GMT
+
+### Patches
+
+- Added new ClientConfigurationError type for authority mismatch in login request #6002 (lalimasharda@microsoft.com)
+
+### Changes
+
+- Switch from enums to object literals to reduce the bundle size #6056 (kshabelko@microsoft.com)
+- Remove unused params in msal-common #6122 (kshabelko@microsoft.com)
 
 ## 14.0.0-alpha.2
 

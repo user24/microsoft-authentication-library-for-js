@@ -2,6 +2,37 @@
   "name": "@azure/msal-node",
   "entries": [
     {
+      "date": "Wed, 14 Jun 2023 23:59:22 GMT",
+      "tag": "@azure/msal-node_v2.0.0",
+      "version": "2.0.0",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/msal-node",
+            "commit": "42dd47713c8c8e362fa3cd54cbf7367140d9fb06",
+            "comment": "Switch from enums to object literals to reduce the bundle size #6068"
+          }
+        ],
+        "none": [
+          {
+            "author": "rginsburg@microsoft.com",
+            "package": "@azure/msal-node",
+            "commit": "a4b74f083f04466f8d341d017942635a3c268e85",
+            "comment": "Updated ClientCredentialRequest documentation"
+          }
+        ],
+        "patch": [
+          {
+            "author": "beachball",
+            "package": "@azure/msal-node",
+            "comment": "Bump @azure/msal-common to v14.0.0",
+            "commit": "b416b465f2b7f20be4f0865cd4364319df82830c"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 16 May 2023 22:51:25 GMT",
       "tag": "@azure/msal-node_v2.0.0-alpha.2",
       "version": "2.0.0-alpha.2",

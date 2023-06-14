@@ -2,6 +2,37 @@
   "name": "@azure/msal-angular",
   "entries": [
     {
+      "date": "Wed, 14 Jun 2023 23:59:22 GMT",
+      "tag": "@azure/msal-angular_v3.0.0",
+      "version": "3.0.0",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "joarroyo@microsoft.com",
+            "package": "@azure/msal-angular",
+            "commit": "0e1b723cd4a8d59c963fd7a5a5884bebb9e49fbe",
+            "comment": "Update log to match name change #6036"
+          }
+        ],
+        "none": [
+          {
+            "author": "joarroyo@microsoft.com",
+            "package": "@azure/msal-angular",
+            "commit": "8d60ee28508c67a1aec38d98d4dffe3c6909ce1a",
+            "comment": "Changes to MSAL Angular docs and comments for v3 #6008"
+          }
+        ],
+        "patch": [
+          {
+            "author": "beachball",
+            "package": "@azure/msal-angular",
+            "comment": "Bump @azure/msal-browser to v3.0.0",
+            "commit": "b416b465f2b7f20be4f0865cd4364319df82830c"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 16 May 2023 22:51:19 GMT",
       "tag": "@azure/msal-angular_v3.0.0-alpha.2",
       "version": "3.0.0-alpha.2",

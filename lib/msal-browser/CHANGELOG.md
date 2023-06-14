@@ -1,8 +1,26 @@
 # Change Log - @azure/msal-browser
 
-This log was last generated on Tue, 16 May 2023 22:51:19 GMT and should not be manually modified.
+This log was last generated on Wed, 14 Jun 2023 23:59:22 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 3.0.0
+
+Wed, 14 Jun 2023 23:59:22 GMT
+
+### Patches
+
+- Added authority check for native and silent flows #6002 (lalimasharda@microsoft.com)
+- Treat invalid_method as a fatal error for WAM #6094 (thomas.norling@microsoft.com)
+- Fix silent cache lookup bugs for native flows #6067 (sameera.gajjarapu@microsoft.com)
+- ignore native broker initialize check if application is not top-frame #6129 (lalimasharda@microsoft.com)
+- Bump @azure/msal-common to v14.0.0
+
+### Changes
+
+- Switch from enums to object literals to reduce the bundle size #6056 (kshabelko@microsoft.com)
+- Fix inProgress state reset when page restored from bfCache #6037 (thomas.norling@microsoft.com)
+- Remove legacy MsCrypto and MsrCrypto polyfill to reduce the bundle size #6086 (kshabelko@microsoft.com)
 
 ## 3.0.0-alpha.2
 
