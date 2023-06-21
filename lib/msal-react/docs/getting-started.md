@@ -27,6 +27,7 @@ const configuration: Configuration = {
 };
 
 const pca = new PublicClientApplication(configuration);
+await pca.initialize();
 
 // Component
 const AppProvider = () => (
